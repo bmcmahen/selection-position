@@ -1,0 +1,14 @@
+{
+  "name": "selection-position",
+  "repo": "bmcmahen/selection-position",
+  "description": "small wrapper to determine the current position of the window selection",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
