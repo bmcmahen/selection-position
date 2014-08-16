@@ -27,6 +27,12 @@ describe('selection position', function () {
     assert(selectionPosition().width === 0);
   });
 
+  it('should remove the dummy span element', function () {
+    selectionRange(el, {start: 1});
+    assert(selectionPosition().width === 0);
+    assert(!$el.find('span')[0]);
+  })
+
   it('should return null without a cursor position', function() {
     assert(!!selectionPosition());
   });

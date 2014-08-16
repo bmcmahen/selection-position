@@ -20,7 +20,9 @@ module.exports = function() {
     // a dummy element and see what's what.
     var dummy = document.createElement('span');
     range.insertNode(dummy);
-    return dummy.getBoundingClientRect();
+    var pos = dummy.getBoundingClientRect();
+    dummy.parentNode.removeChild(dummy);
+    return pos;
   }
 
   if (document.selection) {
