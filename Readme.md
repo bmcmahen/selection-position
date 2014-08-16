@@ -1,7 +1,7 @@
 
 # selection-position
 
-  small wrapper to determine the current position of the window selection
+  Determine the current position of the selection or cursor.
 
 ## Installation
 
@@ -15,6 +15,13 @@
 var position = require('selection-position');
 var rect = position();
 // rect.top, rect.height, etc.
+```
+
+## Tests
+
+```
+npm install component-test -g
+component test browser
 ```
 
 ## License

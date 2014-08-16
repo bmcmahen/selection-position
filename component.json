@@ -2,10 +2,14 @@
   "name": "selection-position",
   "repo": "bmcmahen/selection-position",
   "description": "small wrapper to determine the current position of the window selection",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": [],
   "dependencies": {},
-  "development": {},
+  "development": {
+    "component/assert" : "*",
+    "component/dom": "*",
+    "bmcmahen/selection-range": "1.0.0"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [
