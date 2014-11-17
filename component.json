@@ -2,7 +2,7 @@
   "name": "selection-position",
   "repo": "bmcmahen/selection-position",
   "description": "small wrapper to determine the current position of the window selection",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "keywords": [],
   "dependencies": {},
   "development": {

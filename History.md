@@ -1,3 +1,6 @@
+## 1.0.0
+Add package.json
+
 ## 0.1.1
 
 Remove dummy span.

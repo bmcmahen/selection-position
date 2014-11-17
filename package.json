@@ -1,0 +1,26 @@
+{
+  "name": "selection-position",
+  "version": "1.0.0",
+  "description": "cross-browser selected text bounding-client-rect",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmcmahen/selection-position.git"
+  },
+  "keywords": [
+    "selection",
+    "bounding-client-rect"
+  ],
+  "author": "Ben McMahen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmcmahen/selection-position/issues"
+  },
+  "homepage": "https://github.com/bmcmahen/selection-position"
+}
